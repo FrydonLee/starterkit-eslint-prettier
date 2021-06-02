@@ -17,7 +17,7 @@ npx eslint --init
 √ Where does your code run? · browser
 √ How would you like to define a style for your project? · guide
 √ Which style guide do you want to follow? · airbnb      
-√ What format do you want your config file to be in? · JSON
+√ What format do you want your config file to be in? · JSON (<-- !important)
 ```
 
 - in .eslintrc.json copy that config :
