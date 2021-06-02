@@ -1,10 +1,15 @@
-execute that comand : 
+A starter kit for vs code whit eslint and prettier ready on save file
 
+## Configuration
+
+- execute that comand : 
+```
 npm i
 npx eslint --init
+```
 
-choose that response :
-
+- choose that response :
+```
 √ How would you like to use ESLint? · style       
 √ What type of modules does your project use? · esm
 √ Which framework does your project use? · none
@@ -13,9 +18,10 @@ choose that response :
 √ How would you like to define a style for your project? · guide
 √ Which style guide do you want to follow? · airbnb      
 √ What format do you want your config file to be in? · JSON
+```
 
-in .eslintrc.json copy that config :
-
+- in .eslintrc.json copy that config :
+```
 {
     "root": true,
     "env": {
@@ -78,5 +84,7 @@ in .eslintrc.json copy that config :
         "indent": "off"
     }
 }
+```
+## Try
 
-change src/hello-world.js, save file and be happy
+change src/hello-world.js, save the file and se how eslint and prettier change format
